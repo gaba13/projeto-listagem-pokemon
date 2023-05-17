@@ -29,9 +29,12 @@ header #botao-alterar-tema {
 }
 
 header .logo:hover,
-header .imagem-botao:hover,
+header .imagem-botao:hover {
+    transform: scale(1.25);
+}
+
 main .cartao-pokemon:hover {
-    transform: scale(1.05);
+    transform: scale(1.09);
     cursor: pointer;
 }
 
@@ -108,11 +111,14 @@ main .cartao-pokemon .tipo {
 }
 
 .agua {
-    background-color: #6390f0;
+    background-color: rgba(10, 186, 255, 0.685);
 }
 
 .inseto {
     background-color: #a6b91a;
+}
+.voador {
+    background-color: #6390f0;
 }
 
 main .descricao {
